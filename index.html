@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#171717] text-white px-6 mt-4">
+    <nav class="flex justify-between">
+        <div>
+            <h2 class="capitalize">folusho</h2>
+        </div>
+
+        <div>
+            <ul class="capitalize gap-4 hidden md:flex">
+                <li>about me</li>
+                <li>contact me</li>
+                <li>projects</li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="grid grid-cols-1 md:grid-cols-2">
+        <div id="intro" class="order-2 md:order-1">
+            <header>
+                <h1 class="text-[2rem] font-semibold">I'm a <br> Frontend Developer</h1>
+                <p class="text-gray-300 text-xl py-2">Folusho Ajayi</p>
+            </header>
+
+            <span class="flex gap-4 py-6">
+                <button class="px-6 py-2 bg-[#27AE60] capitalize font-medium rounded-sm">hire me</button>
+                <button class="border capitalize px-4 py-2">download cV</button>
+            </span>
+        </div>
+
+        <div class="flex items-center justify-center py-4">
+            <figure id="my-img" class=" order-1  md:order-2 w-48 h-48 rounded-full">
+            </figure>
+        </div>
+        
+    </main>
+
+    <section id="about" class="py-6">
+
+        <h2 class="capitalize py-4">about me</h2>
+
+        <p class=" text-gray-400">
+            Hey there! I'm folusho Ajayi, a passionate web developer driven by the excitement of crafting seamless and impactful digital experiences. With a foundation in front-end development, I thrive on transforming innovative ideas into functional, user-friendly websites.
+            My journey into the world of web development sparked by my fascination with how technology can enhance our lives. Since then, I've honed my skills in various programming languages such as HTML, CSS, JavaScript.
+            <!-- What sets me apart is my dedication to not just writing code but understanding the nuances of user interaction and design. I believe in creating intuitive interfaces that captivate and engage users, ensuring a delightful journey through every website or application I build.
+            In my projects, I prioritize clean code, scalability, and performance, always seeking to implement the latest industry practices and technologies. I've had the pleasure of collaborating on diverse projects, from e-commerce platforms to responsive web applications, each presenting unique challenges that have expanded my skill set.
+            I thrive in collaborative environments where ideas flow freely, and I'm always eager to learn from others while sharing my expertise. I find immense satisfaction in solving problems, whether it's debugging intricate issues or architecting robust solutions that elevate a project to new heights.
+            When I'm not immersed in lines of code, you'll likely find me exploring new hiking trails, experimenting in the kitchen, or losing track of time engrossed in a captivating book.
+            I'm excited about the endless possibilities in web development and the opportunity to create meaningful digital experiences that leave a lasting impact. Let's collaborate and bring your vision to life! -->
+        </p>
+    </section>
+    
+    <section id="what-i-do" class="grid grid-cols-1 py-6">
+        <h2 class="capitalize py-4">what i do</h2>
+        <div class=" h-[20vh] py-4 flex justify-center">
+            <div class="flex items-center w-[60%] rounded-sm py-12 bg-[#212121]  border-b-4 border-b-[#27ae60]  border border-black text-zinc-500 capitalize text-[1.2rem] font-medium">
+                <div class="px-4">
+                    <iconify-icon icon="streamline:code-monitor-1-solid" style="color: #27ae60;" width="40" height="40"></iconify-icon>
+                    <p>web <br>development</p>
+                </div>
+            </div>
+        </div>
+        <div class=" h-[20vh] py-4  flex justify-center">
+            <div class="flex items-center w-[60%] rounded-sm py-12 bg-[#212121]  border-b-4 border-b-[#27ae60]  border border-black text-zinc-500 capitalize text-[1.2rem] font-medium">
+                <div class="px-4">
+                    <iconify-icon icon="ph:codepen-logo-duotone" style="color: #27ae60;" width="45" height="45"></iconify-icon>
+                    <p>web <br> design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="capitalize py-4">coding arsenal</h2>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-[#212121] h-[15vh] flex items-center justify-center text-center">
+                <div>
+                    <iconify-icon icon="vscode-icons:file-type-html" width="50" height="50"></iconify-icon>
+                    <p class="uppercase text-gray-300">html</p>
+                </div>
+            </div>
+            <div class="bg-[#212121] h-[15vh]  flex items-center justify-center text-center">
+                <div>
+                    <iconify-icon icon="devicon:css3" width="50" height="50"></iconify-icon>
+                    <p class="uppercase text-gray-300">css</p>
+                </div>
+            </div>
+            <div class="bg-[#212121] h-[15vh]  flex items-center justify-center text-center rounded-sm">
+                <div>
+                    <iconify-icon icon="logos:javascript"  width="50" height="50"></iconify-icon>
+                    <p class="capitalize text-gray-300">javascript</p>
+                </div>
+            </div>
+            <div class="bg-[#212121] h-[15vh]  flex items-center justify-center text-center rounded-sm">
+                <div>
+                    <iconify-icon icon="logos:tailwindcss-icon"  width="50" height="50"></iconify-icon>
+                    <p class="capitalize text-gray-300">tailwindcss</p>
+                </div>
+            </div>
+            
+            <div class="bg-[#212121] h-[15vh]  flex items-center justify-center text-center">
+                <div>
+                    <iconify-icon icon="devicon:figma" width="50" height="50"></iconify-icon>
+                    <p class="capitalize text-gray-300">figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="my-projects" class="py-6">
+        <h2 class="py-8">Look at My <br> Projects</h2>
+
+        <div id="the-projects" class="grid grid-cols-1 gap-7">
+            <div class="h-[30vh] bg-[#212121] rounded-sm">
+                <figure id="jolo" class="h-[73%]"></figure>
+                <span class="">
+                    <h4 class="capitalize font-medium text-[1.2rem] py-1 px-4 text-gray-200">jolo</h4>
+                    <p class="font-thin text-[0.9rem] py-1 px-4 text-gray-400 capitalize">decentralized crypto exchange </p>
+                </span>
+            </div>
+            <div class="h-[30vh] bg-[#212121] rounded-sm">
+                <figure id="finditreunite" class="h-[73%]"></figure>
+                <span>
+                    <h4 class="capitalize font-medium text-[1.2rem] py-1 px-4 text-gray-200">FinditReunite</h4>
+                    <p  class="font-thin text-[0.9rem] py-1 px-4 text-gray-400 capitalize">lost & found website</p>
+                </span>
+            </div>
+            <div class="h-[30vh] bg-[#212121] rounded-sm">
+                <figure id="topsun" class="h-[73%]"></figure>
+                <span>
+                    <h4   class="capitalize font-medium text-[1.2rem] py-1 px-4 text-gray-200"">top sun university</h4>
+                    <p  class="font-thin text-[0.9rem] py-1 px-4 text-gray-400 capitalize">university website</p>
+                </span>
+            </div>
+            <div class="h-[30vh] bg-[#212121] rounded-sm">
+                <figure id="ongod" class="h-[80%]"></figure>
+                <span>
+                    <p></p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-6">
+        <h2 class="capitalize py-4">my skills</h2>
+        <ul id="his-skills" class="grid grid-cols-2 gap-4">
+            <ul class="capitalize text-[1.2rem] font-medium text-gray-300">frontend coding</ul>
+            <ul class="capitalize text-[1.2rem] font-medium text-gray-300">responsive design</ul>
+            <ul class="capitalize text-[1.2rem] font-medium text-gray-300">UI/UX design</ul>
+            <ul class="capitalize text-[1.2rem] font-medium text-gray-300">problem solving</ul>
+            <ul class="capitalize text-[1.2rem] font-medium text-gray-300">communication</ul>
+            <ul class="capitalize text-[1.2rem] font-medium text-gray-300">collaboration</ul>
+        </ul>
+    </section>
+
+    <section>
+        <div>
+            <h2 class="capitalize py-4">lets work  together</h2>
+            <article class="text-gray-300 py-4">
+                Have a project in mind? looking to partner
+                or work together? reach out through the for form
+                and i'll get back to you. 
+            </article>
+            <div class="flex flex-col gap-4 py-2">
+                <span class="flex items-center gap-2 font-medium text-gray-300">
+                    <iconify-icon icon="ic:baseline-email" style="color: #27ae60;" width="25" height="25"></iconify-icon>
+                    <a>follyemma@gmail.com</a>
+                </span>
+
+                <span class="flex items-center gap-1 font-medium text-gray-300">
+                    <iconify-icon icon="fe:phone" style="color: #27ae60;" width="23" height="23"></iconify-icon>
+                    <a href="">+234 907 118 1860</a>
+                </span>
+            </div>
+        </div>
+
+        <form class="flex flex-col gap-6 py-4">
+            <input type="text" name="name" placeholder="Name" id="name" class=" w-[90%] px-1 bg-transparent border-b-2 border-[#4F4F4F] py-2 outline-none">
+            <input type="email" name="email" placeholder="E-mail" id="email"  class="w-[90%] px-1 bg-transparent border-b-2 border-[#4F4F4F] py-2 outline-none">
+            <input type="text" name="message" placeholder="Message" id="message" class="w-[90%] bg-transparent border-2 px-1 mt-6 border-[#4F4F4F] pb-10 outline-none">
+            <div>
+                <button type="submit" class="py-2 px-4 bg-[#27ae60]  rounded-sm capitalize" id="send" >send</button>
+            </div>
+        </form>  
+    </section>
+
+    <footer>
+        <hr class=" border-t  rounded-lg">
+        <div class="py-4">
+            <h3 class="capitalize">folusho</h3>
+            <p class="text-[#4F4F4F] font-thin">Designed by Folusho Ajayi</p>
+        </div>
+        <div></div>
+    </footer>
+</body>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<style>
+    h2{font-size: xx-large;}
+</style>
+</html>

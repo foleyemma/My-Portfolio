@@ -11,7 +11,7 @@
 }
 
 #finditreunite{
-    background-image: url(images/Rectangle\ 19.png);
+    background-image: url(images/finditreunite-snip.PNG);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,4 +26,55 @@
     background-image: url(images/Rectangle\ 22.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#hire-btn{
+	background: linear-gradient(-45deg, #27ae60,  #AEA327, #18e76e, #2732AE);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#dwn-cv{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#dwn-cv:hover{
+    border: #27ae60;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#dwn-cv:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #27ae60;
+}
+
+#dwn-cv:hover::before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
+
 }

@@ -7,10 +7,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-[#171717] text-white px-6 mt-4">
+<body class="bg-[#171717] text-white px-6 mt-2">
     <nav class="flex justify-between">
         <div>
-            <h2 class="capitalize">folusho</h2>
+            <h3 class="capitalize text-[1.5rem] pb-2">folusho</h3>
         </div>
 
         <div>
@@ -25,7 +25,11 @@
     <main class="grid grid-cols-1 md:grid-cols-2">
         <div id="intro" class="order-2 md:order-1">
             <header>
-                <h1 class="text-[2rem] font-semibold">I'm a <br> Frontend Developer</h1>
+                <div class="font-semibold text-3xl">
+                    <span class="type"></span>
+                    <p class="typed"></p>
+                
+                </div>
                 <p class="text-gray-300 text-xl py-2">Folusho Ajayi</p>
             </header>
 
@@ -39,8 +43,8 @@
             </span>
         </div>
 
-        <div class="flex items-center justify-center py-4">
-            <figure id="my-img" class=" order-1  md:order-2 w-48 h-48 rounded-full">
+        <div class="flex items-center justify-center py-6">
+            <figure id="my-img" class=" order-1  md:order-2 w-48 h-48 rounded-full ">
             </figure>
         </div>
         
@@ -119,7 +123,7 @@
     </section>
 
     <section id="my-projects" class="py-6">
-        <h2 class="py-8">Look at My <br> Projects</h2>
+        <h2 class="py-8">Look at My <p class="text-[#27ae60]">Projects</p></h2>
 
         <div id="the-projects" class="grid grid-cols-1 gap-7">
             <div class="h-[30vh] bg-[#212121] rounded-sm">
@@ -129,26 +133,44 @@
                     <p class="font-thin text-[0.9rem] py-1 px-4 text-gray-400 capitalize">decentralized crypto exchange </p>
                 </span>
             </div>
+
             <div class="h-[30vh] bg-[#212121] rounded-sm">
-                <figure id="finditreunite" class="h-[73%] hover:backdrop-"></figure>
-                <span>
-                    <h4 class="capitalize font-medium text-[1.2rem] py-1 px-4 text-gray-200">FinditReunite</h4>
+                <div class="w-full h-[73%]">
+                    <figure id="finditreunite" class="h-full hover:blur-sm"></figure>
+                    <iconify-icon icon="line-md:external-link" class="justify-center ml-4 relative bottom-24 text-zinc-800 hidden" width="50" height="50"></iconify-icon>
+                </div>
+                <div>
+                    <span class="flex justify-between items-center">
+                        <h4 class="capitalize font-medium text-[1.2rem] py-1 px-4 text-gray-200">FinditReunite</h4>
+                        <p class="text-[0.7rem] pr-3 capitalize text-gray-200">in progress</p>
+                    </span>
                     <p  class="font-thin text-[0.9rem] py-1 px-4 text-gray-400 capitalize">lost & found website</p>
-                </span>
+                </div>
+            </div>
+
+            <div class="h-[30vh] bg-[#212121] rounded-sm">
+                <div class="w-full h-[73%]">
+                    <figure id="topsun" class="h-full hover:blur-sm"></figure>
+                </div>
+                <div>
+                    <span class="flex justify-between items-center">
+                        <h4 class="capitalize font-medium text-[1.2rem] py-1 px-4 text-gray-200">top sun university</h4>
+                        <p class="text-[0.7rem] pr-3 capitalize text-[#27ae60]">complete</p>
+                    </span>
+                    <p  class="font-thin text-[0.9rem] py-1 px-4 text-gray-400 capitalize">school website</p>
+                </div>
             </div>
             <div class="h-[30vh] bg-[#212121] rounded-sm">
-                <figure id="topsun" class="h-[73%]"></figure>
-                <span>
-                    <h4   class="capitalize font-medium text-[1.2rem] py-1 px-4 text-gray-200">top sun university</h4>
-                    <p  class="font-thin text-[0.9rem] py-1 px-4 text-gray-400 capitalize">university website</p>
-                </span>
-            </div>
-            <div class="h-[30vh] bg-[#212121] rounded-sm">
-                <figure id="ongod" class="h-[80%]"></figure>
-                <span>
-                    <p></p>
-                </span>
-            </div>
+                <div class="w-full h-[73%]">
+                    <figure id="nordic-rose" class="h-full hover:blur-sm"></figure>
+                </div>
+                <div>
+                    <span class="flex justify-between items-center">
+                        <h4 class="capitalize font-medium text-[1.2rem] py-1 px-4 text-gray-200">nordic rose</h4>
+                        <p class="text-[0.7rem] pr-3 capitalize text-gray-200">in progress</p>
+                    </span>
+                    <p  class="font-thin text-[0.9rem] py-1 px-4 text-gray-400 capitalize">blog page</p>
+                </div>
         </div>
     </section>
 
@@ -196,10 +218,10 @@
     </section>
 
     <footer class="py-8">
-        <hr class=" border-t  rounded-lg">
+        <hr class=" border-t  rounded-lg mx-[-50px] overflow-hidden border-[1px] border-gray-400">
         <div class="flex justify-between items-center">
             <div class="py-4">
-                <h3 class="capitalize">folusho</h3>
+                <h3 class="capitalize text-[1.5rem]">folusho</h3>
                 <p class="text-[#4F4F4F] font-thin">Designed by @Foley</p>
             </div>
             <div>
@@ -207,7 +229,7 @@
                     <li><a href="https://github.com/foleyemma">
                             <iconify-icon icon="ri:github-fill"  width="22" height="22"></iconify-icon>
                     </a></li>
-                    <li><a href="">
+                    <li><a href="https://x.com/foleyemma_03?t=pVOt5ZDt7UIdVXi_8BEMYA&s=09">
                         <iconify-icon icon="ri:twitter-x-fill"  width="22" height="22"></iconify-icon>
                     </a></li>
                     <li><a href="https://wa.me/2349071181860">
@@ -218,6 +240,7 @@
         </div>
     </footer>
 </body>
+<script src="script.js"></script>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <style>
     h2{font-size: xx-large;}

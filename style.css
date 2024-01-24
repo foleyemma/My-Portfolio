@@ -1,11 +1,18 @@
 #my-img{
-    background-image: url(images/anime_image_fe96db95e0.jpg);
+    background-image: url(images/foley-pfp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#my-img{
+    animation: imgFloat 7s ease-in-out infinite;
+}
+@keyframes imgFloat {
+    50%{
+        transform: translateY(15px);
+    }
+}
 #jolo{
-    background-image: url(images/Rectangle\ 14.png);
+    background-image: url(images/Jolo-Homepage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,13 +24,13 @@
 }
 
 #topsun{
-    background-image: url(images/Rectangle\ 17.png);
+    background-image: url(images/Top-sun-preview.PNG);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#ongod{
-    background-image: url(images/Rectangle\ 22.png);
+#nordic-rose{
+    background-image: url(images/Nordic-nose.PNG);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,5 +83,12 @@
     right: 0;
     z-index: -1;
     opacity: 1;
+
+}
+
+hr{
+    position: relative;
+    left: -20px;
+    right: 100px;
 
 }

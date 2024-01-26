@@ -62,7 +62,6 @@ const sr2 = ScrollReveal({
   origin: 'left',
   distance: '120px',
   duration: 2000,
-  mobile: true,
   reset: true
 })
 

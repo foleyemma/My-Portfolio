@@ -58,7 +58,7 @@ sr.reveal('form ',{delay: 200})
 
 
 const sr2 = ScrollReveal({
- 
+  viewFactor: 0,
   origin: 'left',
   distance: '120px',
   duration: 2000,

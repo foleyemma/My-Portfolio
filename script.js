@@ -44,7 +44,7 @@ const scrollToTopButton = document.querySelector ('#scroll-to-top')
   origin: 'top',
   distance: '80px',
   duration: 3000,
-  viewFactor: 0,
+  viewFactor: 0.1,
   reset: true
 })
 

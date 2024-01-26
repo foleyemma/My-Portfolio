@@ -49,11 +49,11 @@ const scrollToTopButton = document.querySelector ('#scroll-to-top')
 
 sr.reveal('#my-img',{delay: 200})
 sr.reveal('#intro',{delay: 200})
-sr.reveal('h2',{delay: 200})
-sr.reveal('#about-me',{delay: 200})
-sr.reveal('#stack',{delay: 200})
-sr.reveal('article',{delay: 200})
-sr.reveal('form ',{delay: 200})
+sr.reveal('h2',{})
+sr.reveal('#about-me',{})
+sr.reveal('#stack',{})
+sr.reveal('article',{})
+sr.reveal('form ',{})
 
 
 const sr2 = ScrollReveal({

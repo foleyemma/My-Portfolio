@@ -47,9 +47,9 @@ const scrollToTopButton = document.querySelector ('#scroll-to-top')
   reset: true
 })
 
-sr.reveal('#my-img',{delay: 500})
-sr.reveal('#intro',{delay: 100})
-sr.reveal('h2',{delay: 300})
+sr.reveal('#my-img',{delay: 200})
+sr.reveal('#intro',{delay: 200})
+sr.reveal('h2',{delay: 200})
 sr.reveal('#about-me',{delay: 200})
 sr.reveal('#stack',{delay: 200})
 sr.reveal('article',{delay: 200})
@@ -59,7 +59,7 @@ sr.reveal('form ',{delay: 200})
 const sr2 = ScrollReveal({
   origin: 'left',
   distance: '120px',
-  duration: 3000,
+  duration: 2000,
   reset: true
 })
 
@@ -73,7 +73,7 @@ sr.reveal('#contact',{delay: 300})
 const sr3 = ScrollReveal({
   origin: 'right',
   distance: '120px',
-  duration: 3000,
+  duration: 2000,
   reset: true
 })
 

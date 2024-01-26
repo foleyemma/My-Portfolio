@@ -41,7 +41,7 @@ const scrollToTopButton = document.querySelector ('#scroll-to-top')
 
  /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
  const sr = ScrollReveal({
-  origin: 'bottom',
+  
   distance: '80px',
   duration: 2000,
   reset: true

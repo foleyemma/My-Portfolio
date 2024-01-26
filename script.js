@@ -44,8 +44,8 @@ const scrollToTopButton = document.querySelector ('#scroll-to-top')
   origin: 'top',
   distance: '80px',
   duration: 3000,
-  viewFactor: 0.01,
-  reset: true
+  reset: true,
+  mobile: true
 })
 
 sr.reveal('#my-img',{delay: 200})
@@ -58,11 +58,11 @@ sr.reveal('form ',{delay: 200})
 
 
 const sr2 = ScrollReveal({
-  viewFactor: 0,
   origin: 'left',
   distance: '120px',
   duration: 2000,
-  reset: true
+  reset: true,
+  mobile: true
 })
 
 sr2.reveal('#web-development',{delay: 200})
@@ -76,7 +76,8 @@ const sr3 = ScrollReveal({
   origin: 'right',
   distance: '120px',
   duration: 2000,
-  reset: true
+  reset: true,
+  mobile:true
 })
 
 sr3.reveal('#web-design',{delay: 200})

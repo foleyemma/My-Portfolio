@@ -38,7 +38,7 @@ const scrollToTopButton = document.querySelector ('#scroll-to-top')
     })
  })
  
-
+ window.addEventListener('scroll', scrollActive)
  /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
  const sr = ScrollReveal({
   origin: 'top',
@@ -84,3 +84,28 @@ sr3.reveal('#web-design',{delay: 200})
 sr3.reveal('#prj2',{delay: 200})
 sr3.reveal('#prj4',{delay: 200})
 sr3.reveal('.sk2',{delay: 200})
+
+/* ----- CHANGE ACTIVE LINK ----- */
+  
+const sections = document.querySelectorAll('section[id]')
+function scrollActive() {
+const scrollY = window.scrollY;
+
+sections.forEach(current =>{
+  const sectionHeight = current.offsetHeight,
+      sectionTop = current.offsetTop - 50,
+    sectionId = current.getAttribute('id')
+
+  if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+
+      document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active-link')
+
+  }  else {
+
+    document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.remove('active-link')
+
+  }
+})
+}
+
+window.addEventListener('scroll', scrollActive)

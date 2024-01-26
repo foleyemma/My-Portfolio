@@ -29,3 +29,55 @@ function textTypingEffect(element, text, i = 0) {
 }
 
 textTypingEffect(span, word)
+
+const scrollToTopButton = document.querySelector ('#scroll-to-top')
+
+ scrollToTopButton.addEventListener('click', function (){
+    window.scrollTo({
+        top: "50", behavior: 'smooth'
+    })
+ })
+ 
+
+ /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
+ const sr = ScrollReveal({
+  origin: 'top',
+  distance: '80px',
+  duration: 2000,
+  reset: true
+})
+
+sr.reveal('#my-img',{delay: 500})
+sr.reveal('#intro',{delay: 100})
+sr.reveal('h2',{delay: 300})
+sr.reveal('#about-me',{delay: 200})
+sr.reveal('#stack',{delay: 200})
+sr.reveal('article',{delay: 200})
+sr.reveal('form ',{delay: 200})
+
+
+const sr2 = ScrollReveal({
+  origin: 'left',
+  distance: '120px',
+  duration: 3000,
+  reset: true
+})
+
+sr2.reveal('#web-development',{delay: 200})
+sr2.reveal('#prj1',{delay: 200})
+sr2.reveal('#prj3',{delay: 200})
+sr2.reveal('.sk1',{delay: 200})
+sr.reveal('#contact',{delay: 300})
+
+
+const sr3 = ScrollReveal({
+  origin: 'right',
+  distance: '120px',
+  duration: 3000,
+  reset: true
+})
+
+sr3.reveal('#web-design',{delay: 200})
+sr3.reveal('#prj2',{delay: 200})
+sr3.reveal('#prj4',{delay: 200})
+sr3.reveal('.sk2',{delay: 200})

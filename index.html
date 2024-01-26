@@ -23,7 +23,7 @@
     </nav>
 
     <main class="grid grid-cols-1 md:grid-cols-2">
-        <div id="intro" class="order-2 md:order-1">
+        <div id="intro" class="order-2 md:order-1 intro">
             <header>
                 <div class="font-semibold text-3xl">
                     <span class="type"></span>
@@ -54,7 +54,7 @@
 
         <h2 class="capitalize py-4">about me</h2>
 
-        <p class=" text-gray-400">
+        <p id="about-me" class=" text-gray-400">
             Hey there! I'm folusho Ajayi, a passionate web developer driven by the excitement of crafting seamless and impactful digital experiences. With a foundation in front-end development, I thrive on transforming innovative ideas into functional, user-friendly websites.
             My journey into the world of web development sparked by my fascination with how technology can enhance our lives. Since then, I've honed my skills in various programming languages such as HTML, CSS, JavaScript.
             <!-- What sets me apart is my dedication to not just writing code but understanding the nuances of user interaction and design. I believe in creating intuitive interfaces that captivate and engage users, ensuring a delightful journey through every website or application I build.
@@ -67,7 +67,7 @@
     
     <section id="what-i-do" class="grid grid-cols-1 py-6">
         <h2 class="capitalize py-4">what i do</h2>
-        <div class=" h-[20vh] py-4 flex justify-center">
+        <div id="web-development" class=" h-[20vh] py-4 flex justify-center">
             <div class="flex items-center w-[60%] rounded-sm py-12 bg-[#212121]  border-b-4 border-b-[#27ae60]  border border-black text-zinc-500 capitalize text-[1.2rem] font-medium">
                 <div class="px-4">
                     <iconify-icon icon="streamline:code-monitor-1-solid" style="color: #27ae60;" width="40" height="40"></iconify-icon>
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class=" h-[20vh] py-4  flex justify-center">
+        <div id="web-design" class=" h-[20vh] py-4  flex justify-center">
             <div class="flex items-center w-[60%] rounded-sm py-12 bg-[#212121]  border-b-4 border-b-[#27ae60]  border border-black text-zinc-500 capitalize text-[1.2rem] font-medium">
                 <div class="px-4">
                     <iconify-icon icon="ph:codepen-logo-duotone" style="color: #27ae60;" width="45" height="45"></iconify-icon>
@@ -85,9 +85,9 @@
         </div>
     </section>
 
-    <section class="py-4">
+    <section id="tech" class="py-4">
         <h2 class="capitalize py-4">tech stack</h2>
-        <div class="grid grid-cols-3 gap-4 py-4">
+        <div id="stack" class="grid grid-cols-3 gap-4 py-4">
             <div class="bg-[#212121] h-[15vh] flex items-center justify-center text-center">
                 <div>
                     <iconify-icon icon="vscode-icons:file-type-html" width="50" height="50"></iconify-icon>
@@ -126,7 +126,7 @@
         <h2 class="py-10">Look at My <p class="text-[#27ae60]">Projects</p></h2>
 
         <div id="the-projects" class="grid grid-cols-1 gap-10">
-            <div class="h-[30vh] bg-[#212121] rounded-sm">
+            <div id="prj1" class="h-[30vh] bg-[#212121] rounded-sm">
                 <div class="w-full h-[73%]">
                     <figure id="jolo" class="h-full hover:blur-sm"></figure>
                     <iconify-icon icon="line-md:external-link" class="justify-center ml-4 relative bottom-24 text-zinc-800 hidden" width="50" height="50"></iconify-icon>
@@ -140,7 +140,7 @@
                 </div>
             </div>
 
-            <div class="h-[30vh] bg-[#212121] rounded-sm">
+            <div id="prj2" class="h-[30vh] bg-[#212121] rounded-sm">
                 <div class="w-full h-[73%]">
                     <figure id="finditreunite" class="h-full hover:blur-sm"></figure>
                     <iconify-icon icon="line-md:external-link" class="justify-center ml-4 relative bottom-24 text-zinc-800 hidden" width="50" height="50"></iconify-icon>
@@ -154,7 +154,7 @@
                 </div>
             </div>
 
-            <div class="h-[30vh] bg-[#212121] rounded-sm">
+            <div id="prj3" class="h-[30vh] bg-[#212121] rounded-sm">
                 <div class="w-full h-[73%]">
                     <figure id="topsun" class="h-full hover:blur-sm"></figure>
                 </div>
@@ -166,7 +166,8 @@
                     <p  class="font- text-[0.9rem] py-1 px-4 text-gray-400 capitalize">school website</p>
                 </div>
             </div>
-            <div class="h-[30vh] bg-[#212121] rounded-sm">
+
+            <div id="prj4" class="h-[30vh] bg-[#212121] rounded-sm">
                 <div class="w-full h-[73%]">
                     <figure id="nordic-rose" class="h-full hover:blur-sm"></figure>
                 </div>
@@ -183,12 +184,12 @@
     <section id="skills" class="py-6">
         <h2 class="capitalize py-6">my skills</h2>
     <ul id="his-skills" class="grid grid-cols-2 gap-4 te">
-            <ul class="capitalize text-[1.1rem] font-medium text-gray-300 text-left">frontend coding</ul>
-            <ul class="capitalize text-[1.1rem] font-medium text-gray-300 text-right">responsive design</ul>
-            <ul class="capitalize text-[1.1rem] font-medium text-gray-300">UI/UX design</ul>
-            <ul class="capitalize text-[1.1rem] font-medium text-gray-300 text-right">problem solving</ul>
-            <ul class="capitalize text-[1.1rem] font-medium text-gray-300">communication</ul>
-            <ul class="capitalize text-[1.1rem] font-medium text-gray-300 text-right">collaboration</ul>
+            <ul class="sk1 capitalize text-[1.1rem] font-medium text-gray-300 text-left">frontend coding</ul>
+            <ul class="sk2 capitalize text-[1.1rem] font-medium text-gray-300 text-right">responsive design</ul>
+            <ul class="sk1 capitalize text-[1.1rem] font-medium text-gray-300">UI/UX design</ul>
+            <ul class="sk2 capitalize text-[1.1rem] font-medium text-gray-300 text-right">problem solving</ul>
+            <ul class="sk1 capitalize text-[1.1rem] font-medium text-gray-300">communication</ul>
+            <ul class="sk2 capitalize text-[1.1rem] font-medium text-gray-300 text-right">collaboration</ul>
         </ul>
     </section>
 
@@ -200,7 +201,7 @@
                 or work together? reach out through the for form
                 and i'll get back to you. 
             </article>
-            <div class="flex flex-col gap-4 py-5">
+            <div id="contact" class="flex flex-col gap-4 py-5">
                 <span class="flex items-center gap-2 font-medium text-gray-300">
                     <iconify-icon icon="ic:baseline-email" style="color: #27ae60;" width="25" height="25"></iconify-icon>
                     <a href="mailto:follyemma03@gmail.com">follyemma@gmail.com</a>
@@ -245,7 +246,13 @@
             </div>
         </div>
     </footer>
+    <div id="scroll-to-top" class="relative left-72 bottom-36">
+        <button class="scroll-up bg-[#212121] w-12 h-12 rounded-full flex justify-center items-center">
+            <iconify-icon icon="majesticons:arrow-up-line" width="22" height="22" style="color: #27ae60;"></iconify-icon>
+        </button>
+    </div>
 </body>
+<script src="https://unpkg.com/scrollreveal"></script>
 <script src="script.js"></script>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <style>

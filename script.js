@@ -34,14 +34,14 @@ const scrollToTopButton = document.querySelector ('#scroll-to-top')
 
  scrollToTopButton.addEventListener('click', function (){
     window.scrollTo({
-        top: "50", behavior: 'smooth'
+        top: "20", behavior: 'smooth'
     })
  })
  
 
  /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
  const sr = ScrollReveal({
-  origin: 'top',
+  origin: 'bottom',
   distance: '80px',
   duration: 2000,
   reset: true
